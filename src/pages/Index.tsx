@@ -4,7 +4,7 @@ import { DashboardHeader } from '@/components/dashboard/DashboardHeader';
 import { RequestCard } from '@/components/dashboard/RequestCard';
 import { mockRequests } from '@/lib/mock-data';
 import { useRequestFilter } from '@/hooks/use-request-filter';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 const Index = () => {
   const [requests, setRequests] = useState(mockRequests);
